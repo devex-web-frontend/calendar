@@ -1,0 +1,20 @@
+{
+	"bitwise": true,
+	"camelcase": true,
+	"curly": true,
+	"eqeqeq": true,
+	"immed": true,
+	"latedef": true,
+	"newcap": true,
+	"noarg": true,
+	"quotmark": "single",
+	"undef": true,
+	"strict": true,
+	"eqnull": true,
+	"evil": true,
+	"browser": true,
+	"globals": {
+		"DX": true,
+		"Calendar": true
+	}
+}
