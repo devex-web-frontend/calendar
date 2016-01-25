@@ -199,7 +199,7 @@ var Calendar = (function(DX, window, document, undefined) {
 			var calendar;
 
 			processors = [];
-			config = config ? Object.merge(Calendar.config, config) : Calendar.config;
+			config = config ? Object.assign({}, Calendar.config, config) : Calendar.config;
 
 			calendar = makeCalendarElement(config);
 			elements = initElements(calendar);
