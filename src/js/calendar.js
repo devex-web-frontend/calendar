@@ -7,7 +7,7 @@
  * @requires DX.Bem
  * @requires DX.Event
  */
-var Calendar = (function(DX, window, document, undefined) {
+var Calendar = (function(DX) {
 	'use strict';
 
 	var CN_CALENDAR = 'calendar',
@@ -311,7 +311,7 @@ var Calendar = (function(DX, window, document, undefined) {
 			return container;
 		};
 	};
-})(DX, window, document);
+})(DX);
 
 Calendar.E_CREATED = 'calendar:created';
 Calendar.E_DAY_SELECTED = 'calendar:dayselected';
