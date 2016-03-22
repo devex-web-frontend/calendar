@@ -1,6 +1,6 @@
 {
   "name": "calendar",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "private": true,
   "license": "MPL-2.0",
   "main": "src/js/calendar.js",
