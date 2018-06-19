@@ -264,13 +264,13 @@ var Calendar = (function(DX) {
 		}
 
 		function drawPrevMonth(date) {
-			var prevDate = DX.Date.decrementMonth(date || currentDate || new Date());
+			var prevDate = DX.Date.decrementMonth(date || currentDate || new Date(new Date().setHours(0,0,0,0)));
 
 			drawMonth(prevDate);
 		}
 
 		function drawNextMonth(date) {
-			var nextDate = DX.Date.incrementMonth(date || currentDate || new Date());
+			var nextDate = DX.Date.incrementMonth(date || currentDate || new Date(new Date().setHours(0,0,0,0)));
 
 			drawMonth(nextDate);
 		}
